@@ -8,6 +8,8 @@ html {
 html, body {
     height: 100%;
     width: 100%;
+    font-family: arial,sans-serif;
+    font-size: small;
 }
 
 .logo {
@@ -43,12 +45,13 @@ html, body {
 
 .headertagsright4 {
     background-color: #4285f4;
-    text-decoration-color: white;
+    color: white;
     border: white;
-    border-top: 10px solid white;
+    width: 75px;
     display: inline-block;
     position: absolute;
-    right: 0px;
+    right: 2px;
+    top: 8px;
 }
 
 .centered {
@@ -68,4 +71,9 @@ html, body {
     padding: 0 16px;
     text-align: center;
     display: inline-block;
+}
+
+.inputbar {
+    width: 400px;
+    height: 40px;
 }
